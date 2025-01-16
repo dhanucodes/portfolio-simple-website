@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin:0;
+ }
+
+ body{
+    .young-serif-regular {
+        font-family: "Young Serif", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+ }
+ .container{
+    padding:50px
+ }
+
+ .section-one{
+    background-color: teal;
+    color: white;
+    padding: 20px;
+ }
+
+ .section-one__contact{
+    background-color: orange;
+    color: azure;
+    text-decoration: none;
+    padding-right:10px;
+    padding-left: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    display: inline-block;
+    margin-top: 5px;
+
+ }
+
+ .section-one__name{
+    font-size: 60px;
+ }
+
+ .section-one__role{
+    font-size: 30px;
+    margin-top: 10px;
+ }
+
+ .section-two,.section-three,.section-four,.section-five{
+    margin-top: 20px;
+ }
+
+ .section-two__para,.section-three__list,.section-four__para,.section-five__end{
+   margin-top: 15px;
+}
+.section-five{
+   background-color: teal;
+   color:whitesmoke;
+   padding: 20px;
+}
+.section-five a{
+   text-decoration: none;
+   color: turquoise;
+}
+.section-three li{
+   list-style: none;
+}
+.section-three{
+   background-color: #950058;
+   padding: 20px;
+   border-radius: 10px;
+   display: inline-block;
+   height: 200px;
+   vertical-align: top;
+}
+.section-four{
+   background-color: #f87f05;
+   padding: 20px;
+   border-radius: 10px;
+   display: inline-block;
+   height:200px;
+   vertical-align: top;
+   width: 1200px;
+}
+
+.contact-form{
+   margin-top: 20px;
+}
+.contact-form__input,.contact-form__submit,.contact-form__textarea{
+   margin-top: 10px;
+}
+.contact-form__input{
+   padding: 10px;
+   border: none;
+   border-bottom: solid black 1px;
+}
+.contact-form__textarea{
+   padding: 10px;
+   border: none;
+   border-bottom: solid black 1px;
+   border-top: solid black 1px;
+   border-right: solid black 1px;
+   border-left: solid black 1px;
+   
+}
+.contact-form__submit{
+   padding-left: 10px;
+   padding-right: 10px;
+   padding-bottom: 10px;
+   padding-top: 10px;
+
+   background-color: orange;
+   color: white;
+}
